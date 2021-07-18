@@ -1,0 +1,73 @@
+title: reconb
+description: RecoHut's official notebooks portal, contains interactive jupyter notebooks on recommender systems.
+github_username: recohut-admin
+github_repo: "reco-nb"
+url: "https://nb.recohut.com"
+baseurl: ""
+minima:
+  social_links:
+    twitter: 
+    github: recohut-admin
+use_math:
+show_description: true
+show_image: false
+annotations: false
+show_tags: true
+google_analytics: 
+exclude:
+  - docker-compose.yml
+  - action.yml
+  - Makefile
+include:
+  - _pages
+default_badges:
+  github: true
+  binder: true
+  colab: true
+html_escape:
+  description: false
+
+# Everything below here should be left alone. Modifications may break fastpages
+future: true
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-octicons
+  - jekyll-toc
+  - jekyll-twitter-plugin
+  - jekyll-relative-links
+  - jekyll-seo-tag
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jemoji
+
+# See https://jekyllrb.com/docs/pagination/
+# For pagination to work, you cannot have index.md at the root of your repo, instead you must rename this file to index.html
+paginate: 15
+paginate_path: /page:num/
+
+remote_theme: jekyll/minima
+
+titles_from_headings:
+  enabled:     true
+  strip_title: true
+  collections: true
+
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  math_engine: katex
+  input: GFM
+  auto_ids: true
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+# to limit size of xml as it can grow quite large.
+feed:
+  posts_limit: 5 #default posts_limit: 10
+  excerpt_only: true
+  
+exclude:
+  - settings.ini
