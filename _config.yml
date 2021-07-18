@@ -1,13 +1,13 @@
 title: reconb
 description: RecoHut's official notebooks portal, contains interactive jupyter notebooks on recommender systems.
 github_username: recohut-admin
-github_repo: "reco-nb"
+github_repo: "reco-nb-stage"
 url: "https://nb.recohut.com"
 baseurl: ""
 minima:
   social_links:
     twitter: 
-    github: recohut-admin
+    github: recohut
 use_math:
 show_description: true
 show_image: false
