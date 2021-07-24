@@ -4,22 +4,37 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>reconb | RecoHut’s official notebooks portal, contains interactive jupyter notebooks on recommender systems.</title>
+<title>reconb | Jupyter notebook database.</title>
 <meta name="generator" content="Jekyll v4.1.1" />
 <meta property="og:title" content="reconb" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="RecoHut’s official notebooks portal, contains interactive jupyter notebooks on recommender systems." />
-<meta property="og:description" content="RecoHut’s official notebooks portal, contains interactive jupyter notebooks on recommender systems." />
+<meta name="description" content="Jupyter notebook database." />
+<meta property="og:description" content="Jupyter notebook database." />
 <link rel="canonical" href="https://nb.recohut.com/" />
 <meta property="og:url" content="https://nb.recohut.com/" />
 <meta property="og:site_name" content="reconb" />
 <meta property="og:image" content="https://nb.recohut.com/images/logo.png" />
-<link rel="next" href="https://nb.recohut.com/page2/" />
 <script type="application/ld+json">
-{"url":"https://nb.recohut.com/","@type":"WebSite","headline":"reconb","image":"https://nb.recohut.com/images/logo.png","name":"reconb","description":"RecoHut’s official notebooks portal, contains interactive jupyter notebooks on recommender systems.","@context":"https://schema.org"}</script>
+{"url":"https://nb.recohut.com/","@type":"WebSite","headline":"reconb","image":"https://nb.recohut.com/images/logo.png","name":"reconb","description":"Jupyter notebook database.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://nb.recohut.com/feed.xml" title="reconb" /><link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
 
 <script>
 function wrap_img(fn) {
@@ -68,11 +83,7 @@ window.onload = wrap_img;
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="home"><p>RecoHut’s official notebooks portal, contains interactive jupyter notebooks on recommender systems.</p>
-
-<p><img src="/images/diagram.png" alt="" title="https://github.com/recohut/reco-nb" /></p>
-
-<h1 id="notebooks">Notebooks</h1>
+        <div class="home"><h1 id="notebooks">Notebooks</h1>
 
 
 
@@ -93,6 +104,21 @@ window.onload = wrap_img;
    <!-- Assemble final sorted posts array -->
   
   <ul class="post-list"><li><h3>
+    <a class="post-link" href="/featurestore/2021/07/24/storing-ml-features-using-feast.html">
+    Storing ML features using Feast
+    </a>
+</h3><p class="post-meta-description">Storing features in feast (a featurestore system), tried out on movielens & ad-click datasets</p><p class="post-meta">Jul 24, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/lightfm/hyperopt/kaggle/movie/streaming/2021/07/23/tv-recommender-sweettv.html">
+    SweetTV Recommendation System
+    </a>
+</h3><p class="post-meta-description">building a tv-show and movie recommender system using lightfm and lightgbm models on sweet.tv's streaming dataset</p><p class="post-meta">Jul 23, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/dash/app/networkx/word2vec/graph/retail/visualization/2021/07/23/grocery-recommendation-using-graph-network.html">
+    Grocery Recommendation using Graph Network
+    </a>
+</h3><p class="post-meta-description">Building word2vec based Graph network using Instacart dataset and finding similar as well as neighbourhood items, and building a dash app</p><p class="post-meta">Jul 23, 2021</p>
+</li><li><h3>
     <a class="post-link" href="/graph/movie/sequential/pytorch/2021/07/22/sequential-recommendation-using-ptgcn.html">
     Sequential Recommendation using PTGCN
     </a>
@@ -123,6 +149,11 @@ window.onload = wrap_img;
     </a>
 </h3><p class="post-meta-description">Learn about bpr, hinge, and warp losses and their adpative versions. Also learning partial credit adjustment in losses.</p><p class="post-meta">Jul 20, 2021</p>
 </li><li><h3>
+    <a class="post-link" href="/coldstart/session/sequential/retail/coveo/prod2vec/annoy/keras/embedding/visualization/tsne/search/queryscoping/2021/07/19/session-based-prod2vec-coveo.html">
+    In-session Recommendation in eCommerce
+    </a>
+</h3><p class="post-meta-description">Training prod2vec model on a small sample of coveo sigir21 retail dataset and covering cold-start as well as search query scoping scenarios</p><p class="post-meta">Jul 19, 2021</p>
+</li><li><h3>
     <a class="post-link" href="/restaurant/onnx/edgemodel/javascript/netron/2021/07/19/serving-cusine-recommender-at-edge-onnx.html">
     Cusine Recommender at Edge
     </a>
@@ -132,11 +163,6 @@ window.onload = wrap_img;
     Introduction to Reinforcement Learning (Playground)
     </a>
 </h3><p class="post-meta-description">Learn RL Q-learning by simulating a discrete and continuous toy environment manually as well as with Gym library</p><p class="post-meta">Jul 19, 2021</p>
-</li><li><h3>
-    <a class="post-link" href="/coldstart/session/sequential/retail/coveo/prod2vec/annoy/keras/embedding/visualization/tsne/search/queryscoping/2021/07/19/session-based-prod2vec-coveo.html">
-    In-session Recommendation in eCommerce
-    </a>
-</h3><p class="post-meta-description">Training prod2vec model on a small sample of coveo sigir21 retail dataset and covering cold-start as well as search query scoping scenarios</p><p class="post-meta">Jul 19, 2021</p>
 </li><li><h3>
     <a class="post-link" href="/lda/topic%20modeling/ktrain/knn/2021/07/19/lda-topic-content-recommender.html">
     Similar Document Recommendations using Topic Modeling
@@ -167,16 +193,754 @@ window.onload = wrap_img;
     Spotify Music Recommender
     </a>
 </h3><p class="post-meta-description">Spotify recommendation system that recommends new songs for your playlist</p><p class="post-meta">Jul 14, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/session/sequence/retail/ecommerce/2021/07/14/session-retail-trendyol.html">
+    Session-based E-commerce Product Recommender
+    </a>
+</h3><p class="post-meta-description">We will build one of the simplest and powerful session-based recommender engine on a real-world data. The data contains <a href='https://www.trendyol.com/'>Trendyol's</a> session-level activities and product metadata information.</p><p class="post-meta">Jul 14, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/movie/ncf/tensorflow/lightfm/2021/07/14/ncf-movielens-tensorflow.html">
+    NCF from scratch in Tensorflow
+    </a>
+</h3><p class="post-meta-description">We will build a Neural Collaborative Filtering model from scratch in Tensorflow and train it on movielens data. Then we will compare it side by side with lightfm model.</p><p class="post-meta">Jul 14, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/education/scraping/visualization/kmeans/pca/2021/07/13/udemy-course-recommender.html">
+    Udemy Course Recommender
+    </a>
+</h3><p class="post-meta-description">Fetching Business course data from Udemy using official Udemy API 2.0, cleaning the data, exploring and building content-based course recommendation system</p><p class="post-meta">Jul 13, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/implicit/syntheticdataset/2021/07/13/implicit-synthetic.html">
+    Comparing Implicit Models on Synthetic Data
+    </a>
+</h3><p class="post-meta-description">Generating a small synthetic implicit data with Gamma distributed interaction and fitting ALS, BPR, PoissonMF, and HPFRec models</p><p class="post-meta">Jul 13, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/implicit/music/2021/07/13/implicit-lastfm.html">
+    Comparing Implicit Models on LastFM Music Data
+    </a>
+</h3><p class="post-meta-description">Fitting ALS, BPR, PoissonMF, and HPFRec models on LastFM-250K music dataset</p><p class="post-meta">Jul 13, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/implicit/music/evaluation/2021/07/13/evaluation-recometrics-lightfm.html">
+    Evaluating Implicit Models on LastFM Music Data
+    </a>
+</h3><p class="post-meta-description">Comparing iALS, BPR, ItemPop, and Random baseline models on LastFM-250K music dataset</p><p class="post-meta">Jul 13, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/visualization/music/scraping/tfidf/2021/07/13/apple-podcast-recommender.html">
+    Apple Podcast Recommender
+    </a>
+</h3><p class="post-meta-description">Scraping, cleaning, exploring and building content-based recommender system to recommend podcasts</p><p class="post-meta">Jul 13, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/pytorch/movie/mlp/2021/07/12/yet-another-movie-recommender-pytorch.html">
+    Yet another Movie Recommender from scratch
+    </a>
+</h3><p class="post-meta-description">Building and training Item-popularity and MLP model on movielens dataset in pure pytorch</p><p class="post-meta">Jul 12, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/ctr/tensorflow/wideanddeep/2021/07/12/wide-and-deep-criteo.html">
+    Wide and Deep Model to Predict Ad-click Probability
+    </a>
+</h3><p class="post-meta-description">Training a Tensorflow based Wide and Deep model on criteo sample dataset to predict the probability of ad-click</p><p class="post-meta">Jul 12, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/graph/pytorch/movie/2021/07/12/ngcf-movielens.html">
+    Neural Graph Collaborative Filtering on MovieLens
+    </a>
+</h3><p class="post-meta-description">Applying NGCF PyTorch version on Movielens-100k</p><p class="post-meta">Jul 12, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/tfidf/movie/flask/app/heroku/2021/07/12/bollywood-movie-recommender.html">
+    Bollywood Movie Recommender
+    </a>
+</h3><p class="post-meta-description">Applying TFIDF and Cosine similarity techniques on bollywood IMDB movie dataset to build a simple content-based recommender and wrapping into an app</p><p class="post-meta">Jul 12, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/multitasklearning/multitask/2021/07/11/multi-task-learning-income-census-data.html">
+    Multi-task Learning
+    </a>
+</h3><p class="post-meta-description">Training 5 models on census data taking salary and marital status as proxies for CTR and CTCVR proxy. Objective is to learn about different models and how they work.</p><p class="post-meta">Jul 11, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/bert/education/2021/07/11/career-village-2.html">
+    CareerVillage Questions Recommendation Content-based Model
+    </a>
+</h3><p class="post-meta-description">We’ll develop an implicit content-based filtering system for recommending questions to professionals. Given a question-professional pair, our model will predict how likely the professional is to answer the question. This model can then be used to determine what new (or still-unanswered) questions a professional is most likely to answer, and those questions can be sent to the professional either via email or via their landing page on the CareerVillage site.</p><p class="post-meta">Jul 11, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/topicmodel/lda/visualization/education/2021/07/11/career-village-1.html">
+    CareerVillage Questions Recommendation
+    </a>
+</h3><p class="post-meta-description">developing a method to recommend relevant questions to the professionals who are most likely to answer them</p><p class="post-meta">Jul 11, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/concept/embedding/tsne/gensim/visualization/2021/07/10/visualizing-embeddings-tsne.html">
+    Concept - Visualizing Embeddings Using TSNE
+    </a>
+</h3><p class="post-meta-description">This notebook demostrates visualization of embeddings using TSNE.</p><p class="post-meta">Jul 10, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/word2vec/embedding/music/sequence/2021/07/10/songs-embedding-skipgram-recommender.html">
+    Song Embeddings - Skipgram Recommender
+    </a>
+</h3><p class="post-meta-description">In this notebook, we'll use human-made music playlists to learn song embeddings. We'll treat a playlist as if it's a sentence and the songs it contains as words. We feed that to the word2vec algorithm which then learns embeddings for every song we have. These embeddings can then be used to recommend similar songs.</p><p class="post-meta">Jul 10, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/ltr/2021/07/10/listnet-ltr.html">
+    ListNet Learning-to-rank model
+    </a>
+</h3><p class="post-meta-description">Training ListNet on synthetic data in pytorch</p><p class="post-meta">Jul 10, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/fastai/movie/2021/07/10/fastai-collab-filtering.html">
+    FastAI Collaborative Filtering
+    </a>
+</h3><p class="post-meta-description">FastAI built a collaborative filtering model on top of pytorch. This example is showing the demo using movielens dataset.</p><p class="post-meta">Jul 10, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/embedding/karateclub/graph/torchgeometric/gcn/2021/07/10/embedding-pytorch-geometric.html">
+    Learn embeddings with PyTorch Geometric
+    </a>
+</h3><p class="post-meta-description">In this notebook, we will train a Graph convolutional model to learn the embeddings of Karateclub dataset, using pytorch geometric library</p><p class="post-meta">Jul 10, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/concept/selfattention/nlp/2021/07/10/concept-self-attention.html">
+    Concept - Self-Attention
+    </a>
+</h3><p class="post-meta-description">Step-by-step guide to self-attention with illustrations and code</p><p class="post-meta">Jul 10, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/concept/embedding/gensim/fasttext/2021/07/10/concept-embedding-gensim-fasttext.html">
+    Training Embeddings Using Gensim and FastText
+    </a>
+</h3><p class="post-meta-description">Word embeddings are an approach to representing text in NLP. In this notebook we will demonstrate how to train embeddings both CBOW and SkipGram methods using Genism and Fasttext.</p><p class="post-meta">Jul 10, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/retail/word2vec/visualization/tfidf/amazondata/2021/07/10/amazon-women-apparel-tfidf-word2vec.html">
+    Amazon Product Recommender
+    </a>
+</h3><p class="post-meta-description">Applying product title descriptions based text semantic methods to recommend similar products</p><p class="post-meta">Jul 10, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/evaluation/visualization/implicit/gridsearch/resurface/2021/07/09/wikirecs-02-model-training-evaluation.html">
+    WikiRecs Part 2 - Modeling and Evaluation
+    </a>
+</h3><p class="post-meta-description">In this second part of the two part series, we will handle the modeling and evaluation side. We will load the saved artifacts and train 7 implicit recommender models. We will compare the performance using various evaluation metrics. We will also visualize the embeddings.</p><p class="post-meta">Jul 9, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/ingestion/eda/datacleaning/2021/07/09/wikirecs-01-data-ingestion.html">
+    WikiRecs Part 1 - Data Ingestion, Loading and Cleaning
+    </a>
+</h3><p class="post-meta-description">In this first part of the two part series, we will handle the data side. We will fetch data from wikipedia, store in feather format and register the combined data on recochef. After that, we will perform EDA and extensive cleaning.</p><p class="post-meta">Jul 9, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/knn/retail/mongodb/privatedata/2021/07/09/retail-products-knn.html">
+    Recommending Retail Products with Memory-based model
+    </a>
+</h3><p class="post-meta-description">Fitting KNN on a retail dataset to recommend retail items to customers</p><p class="post-meta">Jul 9, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/concept/pca/correlation/kmeans/gradientboosting/2021/07/09/data-mining-similarity-measures.html">
+    Concept - Data Mining Similarity Measures
+    </a>
+</h3><p class="post-meta-description">Understanding basic data science concepts - euclidean distance, pearson correlation, clustering, PCA dimension reduction, supervised learning</p><p class="post-meta">Jul 9, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/concept/nlp/transformer/2021/07/09/concept-transformer-lm.html">
+    Concept - TransformerLM Quick Start and Guide
+    </a>
+</h3><p class="post-meta-description">In this notebook, we will Use a pre-trained TransformerLM, Train a TransformerLM model, and Looking inside the Trax TransformerLM</p><p class="post-meta">Jul 9, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/concept/tfidf/nlp/visualization/altair/2021/07/09/concept-nlp-basics.html">
+    Concept - Natural Language Processing 101
+    </a>
+</h3><p class="post-meta-description">Understand the basic process of pattern recognition that is needed to work with text data. This approach can be used for a large number of basic operations on text data like Document Classification (e.g. topic of an article),Sequence to Sequence Learning (e.g. translations), and Sentiment Analysis</p><p class="post-meta">Jul 9, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/concept/keras/3d/visualization/2021/07/09/concept-neural-net.html">
+    Concept - Neural Network
+    </a>
+</h3><p class="post-meta-description">Training a simple neural net to solve a quadratic equation. Visualizing the actual vs predicted function</p><p class="post-meta">Jul 9, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/concept/nlp/embedding/visualization/2021/07/09/concept-embedding-nlp.html">
+    Concept - Exploring Word Embeddings
+    </a>
+</h3><p class="post-meta-description">Embeddings are important now-a-days in recommender systems. In this notebook, we'll look at trained word embeddings. We'll plot the embeddings so we can attempt to visually compare embeddings. We'll then look at analogies and word similarities. We'll use the Gensim library which makes it easy to work with embeddings.</p><p class="post-meta">Jul 9, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/jaccardmodel/unittest/concept/2021/07/08/unit-test-jaccard-recommender.html">
+    Unit Test - Jaccard Similarity based Recommender
+    </a>
+</h3><p class="post-meta-description">This test verifies the functionality of JaccardRecommender</p><p class="post-meta">Jul 8, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/tmdb/movie/streamlit/app/nlp/2021/07/08/simple-movie-recommender-app-streamlit.html">
+    Simple Movie Recommender App
+    </a>
+</h3><p class="post-meta-description">Simple end-to-end content-based movie recommender app built using streamlit and TMDB data</p><p class="post-meta">Jul 8, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/evaluation/2021/07/08/recsys-evaluation-metrics-part-3.html">
+    Recommender System Evaluations - Part 3
+    </a>
+</h3><p class="post-meta-description">Evaluation Recal, MRR and NDCG on simple dummpy data</p><p class="post-meta">Jul 8, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/implicit/pytorch/pytorchlightening/collie/movie/factorization/hybridmodel/visualization/2021/07/08/implicit-hybrid-movie-recommender.html">
+    Implicit Hybrid Model for Movie Recommendation
+    </a>
+</h3><p class="post-meta-description">Testing out the features of Collie Recs library on MovieLens-100K. Training Factorization and Hybrid models with Pytorch Lightning.</p><p class="post-meta">Jul 8, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/evaluation/2021/07/07/recsys-evaluation-metrics-part-2.html">
+    Recommender System Evaluations - Part 2
+    </a>
+</h3><p class="post-meta-description">Understanding evaluation metrics and pricing factors</p><p class="post-meta">Jul 7, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/cosmetics/retail/ecommerce/lightfm/implicit/flask/frontend/api/movie/elasticbeanstalk/2021/07/07/groupby-ecommerce-implicit-recommender.html">
+    GroupBy E-commerce Recommender System with Implicit data
+    </a>
+</h3><p class="post-meta-description">Recommendation system using collaborative filtering for implicit data on e-commerce customer journey. Capstone project for Machine Learning Engineer Bootcamp at FourthBrain. It is an industry sponsored project from GroupBy, an e-commerce start up that aims to create highly converting and relevant site experience to maximize revenue through e-commerce channels. Also benchmarking movielens and cosmetics datasets.</p><p class="post-meta">Jul 7, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/flask/sqlite/education/svd/2021/07/07/course-recommender-svd-flask.html">
+    Course Recommender with SVD based similarity
+    </a>
+</h3><p class="post-meta-description">Applying SVD on education course dataset, storing in sqlite and wrapping in Flask REST api</p><p class="post-meta">Jul 7, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/knn/toy/2021/07/06/toy-example-car-recommender-knn.html">
+    Toy example - Car Recommender using KNN method
+    </a>
+</h3><p class="post-meta-description">Finding top-k cars using different distance metrics like euclidean, cosine, minkowski</p><p class="post-meta">Jul 6, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/pytorch/education/sequence/2021/07/06/mooccube-course-recommender.html">
+    EduRec MOOCCube Course Recommender
+    </a>
+</h3><p class="post-meta-description">Disentangled Self-Supervision for Recommending Videos in MOOCs (Code using PyTorch). Finding best MOOC course for students based on the past activity</p><p class="post-meta">Jul 6, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/implicit/optuna/clustering/surprise/svd/2021/07/06/live-streamer-recommender.html">
+    Live Streamer Recommender with Implicit feedback
+    </a>
+</h3><p class="post-meta-description">A recommendation system based on implicit data (watch duration) of users to different streamers. Contains also clustering of these users based from the behavior/relationship to the different streamers</p><p class="post-meta">Jul 6, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/evaluation/splitting/2021/07/06/evaluation-metrics-basics.html">
+    Recommender System Evaluations
+    </a>
+</h3><p class="post-meta-description">Understanding evaluation metrics, splitting methods</p><p class="post-meta">Jul 6, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/book/flask/api/frontend/nlp/tfhub/knn/2021/07/06/book-recommender-api.html">
+    Book Recommender API
+    </a>
+</h3><p class="post-meta-description">Converting book short description into vectors using Universal Sentence Encoder model and wrapping in an interactive Flask API with Front end HTML page</p><p class="post-meta">Jul 6, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/anime/graphnetwork/2021/07/06/anime-recommender-graph-network.html">
+    Anime Recommender with Bi-partite Graph Network
+    </a>
+</h3><p class="post-meta-description">Loading Anime dataset from Kaggle and building bipartite graph using NetworkX, then finding similar users and recommending animes to the target user</p><p class="post-meta">Jul 6, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/pytorch/movielens/retrieval/2021/07/05/movie-recommender-retrieval-pytorch-lightning.html">
+    Movie Candidate Retrieval with PyTorch Lightning
+    </a>
+</h3><p class="post-meta-description">In this notebook, we will build a simple yet accurate model using movielens-25m dataset and pytorch lightning library. This will be a retrieval model where the objective is to maximize recall over precision.</p><p class="post-meta">Jul 5, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/pytorch/movie/mf/factorization/2021/07/05/mf-movielens-pytorch.html">
+    Matrix Factorization based Movie Recommender built in PyTorch
+    </a>
+</h3><p class="post-meta-description">Simple PyTorch based Matrix Factorization models on movielens-100k dataset - implicit, explicit and hogwild variant</p><p class="post-meta">Jul 5, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/tfrs/tensorflow/retail/olist/multitask/2021/07/04/tfrs-recommenders-olist.html">
+    Tensorflow Recommenders - Implementation on Retail Data
+    </a>
+</h3><p class="post-meta-description">TFRS Retrieval, ranking, time and text feature embeddings, and multi-task modeling on Olist retail dataset</p><p class="post-meta">Jul 4, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/surprise/knn/svd/songs/millionsongsdataset/visualization/eda/2021/07/04/song-recommender-knn-svd-millionsongs.html">
+    Recommending songs using collaborative filtering method
+    </a>
+</h3><p class="post-meta-description">KNN and SVD models with hyperparameter tuning with the help of Surprise library. Using small subset of Million Songs Dataset.</p><p class="post-meta">Jul 4, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/tensorflow/embedding/visualization/altair/movie/factorization/mf/2021/07/04/movie-recommender-tensorflow.html">
+    Recommendation Systems with TensorFlow
+    </a>
+</h3><p class="post-meta-description">This notebook complements the course on <a href='https://developers.google.com/machine-learning/recommendation/'>Recommendation Systems</a>. Specifically, we'll be using matrix factorization to learn user and movie embeddings.</p><p class="post-meta">Jul 4, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/pytorch/movie/mf/mlp/recochef/2021/07/04/mf-mlp-movielens-in-pytorch.html">
+    Training neural factorization model on movielens dataset
+    </a>
+</h3><p class="post-meta-description">Training MF, MF+bias, and MLP model on movielens-100k dataset in PyTorch</p><p class="post-meta">Jul 4, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/songs/contentbased/tfidf/2021/07/04/content-based-music-recommender-lyricsfreak.html">
+    Content-based method for song recommendation
+    </a>
+</h3><p class="post-meta-description">Applying TF-IDF on song lyrics to find the similar songs for users using LyricsFreak dataset</p><p class="post-meta">Jul 4, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/pytorch/visualization/movie/ncf/2021/07/03/ncf-from-scratch-pytorch.html">
+    NCF from scratch in pytorch
+    </a>
+</h3><p class="post-meta-description">Building neural collaborative filtering model from scratch in pytorch and plotting movielens rating matrix before and after rating prediction</p><p class="post-meta">Jul 3, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/pytorch/movie/mlp/ncf/visualization/2021/07/03/movie-recommender-pytorch-embedding.html">
+    Movielens Deep Neural Net model from scratch in PyTorch
+    </a>
+</h3><p class="post-meta-description">Training Pytorch MLP model on movielens-100k dataset and visualizing factors by decomposing using PCA</p><p class="post-meta">Jul 3, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/tensorflow/movie/nmslib/2021/07/02/training-indexing-movie-recommender.html">
+    Training and indexing movie recommender
+    </a>
+</h3><p class="post-meta-description">Building tensorflow model on movielens latest small variant and indexing using NMSlib for efficient retrieval</p><p class="post-meta">Jul 2, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/eda/movie/visualization/2021/07/02/movielens-eda-modeling.html">
+    Movielens EDA and Modeling
+    </a>
+</h3><p class="post-meta-description">EDA and modeling on movielens dataset</p><p class="post-meta">Jul 2, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/sagemaker/aws/tensorflow/ncf/movie/2021/07/02/movie-recommender-tensorflow-sagemaker.html">
+    Movie recommender using Tensorflow in Sagemaker
+    </a>
+</h3><p class="post-meta-description">Tutorial on ow to build and deploy a customized recommender system using Neural Collaborative Filtering model in TensorFlow 2.0 on Amazon SageMaker, based on which you can customize further accordingly.</p><p class="post-meta">Jul 2, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/bandit/rl/mab/2021/07/02/ads-selection-using-bandits.html">
+    Best Ads detection using bandit methods
+    </a>
+</h3><p class="post-meta-description">Multi-armed Bandit for Banner Ad and 4 Exploration Strategies</p><p class="post-meta">Jul 2, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/trivago/popularity/travel/2021/07/01/trivago-popular-destination-recommender.html">
+    Trivago Popular Destination Recommender
+    </a>
+</h3><p class="post-meta-description">Using Recsys 2019 challange Trivago travel dataset to build popularity based model and recommending popular most clicked destinations to the users</p><p class="post-meta">Jul 1, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/tensorflowserving/tfserving/tensorflow/deployment/2021/07/01/tf-serving-in-action.html">
+    TF Serving in action
+    </a>
+</h3><p class="post-meta-description">Chapter 19 of the hands-on-ml book</p><p class="post-meta">Jul 1, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/logistic/lightgbm/knn/session/sequence/trivago/travel/2021/07/01/session-based-recommender-travel.html">
+    Session-based travel recommendations
+    </a>
+</h3><p class="post-meta-description">Experimenting with 8 ML models on a simple Trivago-inspired session-based travel dataset</p><p class="post-meta">Jul 1, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/sequence/rnn/cnn/2021/07/01/rnn-cnn-basics.html">
+    Processing sequences using RNNs and CNNs
+    </a>
+</h3><p class="post-meta-description">Chapter 15 of the hands-on-ml book</p><p class="post-meta">Jul 1, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/reinforcement/rl/reinforcementlearning/2021/07/01/rl-in-action.html">
+    Reinforcement Learning fundamentals in action
+    </a>
+</h3><p class="post-meta-description">Chapter 18 of the hands-on-ml book</p><p class="post-meta">Jul 1, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/cassandra/2021/07/01/read-data-from-cassandra-into-pandas.html">
+    Read Cassandra as DataFrame
+    </a>
+</h3><p class="post-meta-description">Short guide on how to read data from Cassandra into pandas dataframe format</p><p class="post-meta">Jul 1, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/computervision/imageclassification/gradio/2021/07/01/flower-classification.html">
+    Flower classification
+    </a>
+</h3><p class="post-meta-description">Building end-to-end flower classification system using tensorflow keras</p><p class="post-meta">Jul 1, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/causal/2021/07/01/causal-inference.html">
+    Causal Inference
+    </a>
+</h3><p class="post-meta-description">Concepts of causal inferencing with code</p><p class="post-meta">Jul 1, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/mlops/kubeflow/2021/07/01/build-a-kubeflow-pipeline.html">
+    Build a Kubeflow Pipeline
+    </a>
+</h3><p class="post-meta-description">A tutorial on building pipelines to orchestrate your ML workflow</p><p class="post-meta">Jul 1, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/book/kubeflow/2021/07/01/book-recommender-kubeflow.html">
+    Books recommendations with Kubeflow Pipelines on Scaleway Kapsule
+    </a>
+</h3><p class="post-meta-description">A simple book recommender system using Kubeflow pipeline</p><p class="post-meta">Jul 1, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/surprise/svd/nmf/book/2021/07/01/book-crossing-surprise-svd-nmf.html">
+    Book-Crossing Recommendation System
+    </a>
+</h3><p class="post-meta-description">Book recommender system on book crossing dataset using surprise SVD and NMF models</p><p class="post-meta">Jul 1, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/cornac/2021/06/30/cornac-examples.html">
+    Cornac Examples
+    </a>
+</h3><p class="post-meta-description">Multiple examples showcasing the features of cornac library and recommender concepts</p><p class="post-meta">Jun 30, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/movie/cornac/2021/06/30/cornac-01-item-popularity.html">
+    Popularity based movie recommender
+    </a>
+</h3><p class="post-meta-description">A simple popular movie recommender and eda on movielens-100k dataset with the help of cornac library</p><p class="post-meta">Jun 30, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/concept/preprocessing/2021/06/30/concept-normalization.html">
+    The importance of Rating Normalization
+    </a>
+</h3><p class="post-meta-description">Understanding the concept of rating normalization and user-based, item-based similarity with example</p><p class="post-meta">Jun 30, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/abtest/2021/06/28/udacity-abtest-python.html">
+    AB Testing With Python
+    </a>
+</h3><p class="post-meta-description">Walkthrough on a Udacity Course on AB testing</p><p class="post-meta">Jun 28, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/abtest/2021/06/28/step-by-step-ab-testing-guide.html">
+    A/B testing step-by-step guide in Python
+    </a>
+</h3><p class="post-meta-description">In this notebook we'll go over the process of analysing an A/B test, from formulating a hypothesis, testing it, and finally interpreting results.</p><p class="post-meta">Jun 28, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/movie/2021/06/27/content-based-and-collaborative-movielens.html">
+    Movie Recommendation with Content-Based and Collaborative Filtering
+    </a>
+</h3><p class="post-meta-description">Applying content-based and collaborative filtering method on MovieLens dataset</p><p class="post-meta">Jun 27, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/movie/pytorch/attentionmechanism/2021/06/27/conet-model.html">
+    CoNet model
+    </a>
+</h3><p class="post-meta-description">Applying Co-occurrence Neural Networks for Recommendation on MovieLens dataset</p><p class="post-meta">Jun 27, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/movie/autoencoder/tensorflow/2021/06/27/building-models-from-scratch.html">
+    Building models from scratch
+    </a>
+</h3><p class="post-meta-description">Applying various MF and Deep learning recommender models on movielens 100k</p><p class="post-meta">Jun 27, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/movie/bigdata/pyspark/analyticszoo/wide&deep/2021/06/27/analytics-zoo-wideanddeep-movielens.html">
+    Analytics Zoo Recommendation Part 3
+    </a>
+</h3><p class="post-meta-description">Applying Wide&Deep on MovieLens using Analytics Zoo library</p><p class="post-meta">Jun 27, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/movie/bigdata/pyspark/analyticszoo/ncf/2021/06/27/analytics-zoo-ncf-movielens.html">
+    Analytics Zoo Recommendation Part 1
+    </a>
+</h3><p class="post-meta-description">Applying NCF on Movielens using Analytics Zoo library</p><p class="post-meta">Jun 27, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/book/bigdata/pyspark/analyticszoo/ncf/2021/06/27/analytics-zoo-ncf-goodreads.html">
+    Analytics Zoo Recommendation Part 2
+    </a>
+</h3><p class="post-meta-description">Applying NCF on Goodreads using Analytics Zoo library</p><p class="post-meta">Jun 27, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/abtest/2021/06/27/ad-conversion-simple-ab-testing.html">
+    Ad-conversion A-B Testing
+    </a>
+</h3><p class="post-meta-description">Simple T-test to compare 2 samples of ad-conversions</p><p class="post-meta">Jun 27, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/abtest/2021/06/27/ab-test-in-five-simple-steps.html">
+    AB Test in five simple steps
+    </a>
+</h3><p class="post-meta-description">A-B test and plots with explanations to understand the basics</p><p class="post-meta">Jun 27, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/spark/pyspark/kafka/movie/2021/06/25/kafka-spark-streaming-colab.html">
+    Kafka and Spark Streaming in Colab
+    </a>
+</h3><p class="post-meta-description">Installing Kafka and Spark streaming in colab and streaming movielens dataset</p><p class="post-meta">Jun 25, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/node2vec/word2vec/graph/graphnetwork/deepwalk/pytorch/2021/06/25/graph-network-learn-embeddings.html">
+    Learn embeddings using Graph Networks
+    </a>
+</h3><p class="post-meta-description">Various short tutorials on using graph network models to learn embeddings, classification and visualization</p><p class="post-meta">Jun 25, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/anime/autoencoder/pytorch/2021/06/25/anime-recommender.html">
+    RekoNet Anime Recommender
+    </a>
+</h3><p class="post-meta-description">The data crawled from the popular anime website <a href='http://myanimelist.net/'>MyAnimeList.net</a>, and cleaned of duplicates as well as missing values and false data. Following that, autoencoders used to learn embeddings of all the anime titles present in the dataset, which were then used to cluster the same.</p><p class="post-meta">Jun 25, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/altair/visualization/2021/06/25/altair-plot-part-6.html">
+    Altair Plot Part 6 - Cartographic Visualization
+    </a>
+</h3><p class="post-meta-description">A series of Altair plot examples</p><p class="post-meta">Jun 25, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/altair/visualization/2021/06/25/altair-plot-part-5.html">
+    Altair Plot Part 5 - Interaction
+    </a>
+</h3><p class="post-meta-description">A series of Altair plot examples</p><p class="post-meta">Jun 25, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/altair/visualization/2021/06/25/altair-plot-part-4.html">
+    Altair Plot Part 4 - Multi-View Composition
+    </a>
+</h3><p class="post-meta-description">A series of Altair plot examples</p><p class="post-meta">Jun 25, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/altair/visualization/2021/06/25/altair-plot-part-3.html">
+    Altair Plot Part 3 - Data Transformation
+    </a>
+</h3><p class="post-meta-description">A series of Altair plot examples</p><p class="post-meta">Jun 25, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/altair/visualization/2021/06/25/altair-plot-part-2.html">
+    Altair Plot Part 2 - Scales, Axes, and Legends
+    </a>
+</h3><p class="post-meta-description">A series of Altair plot examples</p><p class="post-meta">Jun 25, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/altair/visualization/2021/06/25/altair-plot-part-1.html">
+    Altair Plot Part 1 - Graphical Marks and Visual Encoding Channels
+    </a>
+</h3><p class="post-meta-description">A series of Altair plot examples</p><p class="post-meta">Jun 25, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/spark/pyspark/2021/06/24/spark-on-colab.html">
+    Spark on Colab
+    </a>
+</h3><p class="post-meta-description">Run spark on google colab</p><p class="post-meta">Jun 24, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/spark/pyspark/movie/2021/06/24/spark-movie-recommender.html">
+    Movie recommender on PySpark
+    </a>
+</h3><p class="post-meta-description">Building a scalable movie recommendation system using PySpark trained on movielens</p><p class="post-meta">Jun 24, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/spark/pyspark/2021/06/24/spark-ml-basics.html">
+    SparkML Basics
+    </a>
+</h3><p class="post-meta-description">Basics of PySpark ML Lib module</p><p class="post-meta">Jun 24, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/movie/2021/06/24/movie-recommender-system.html">
+    Movie Recommender System
+    </a>
+</h3><p class="post-meta-description">Content-based and collaborative recommendation methods on MovieLens</p><p class="post-meta">Jun 24, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/graph/movie/2021/06/23/pinsage-graph-movielens-1m.html">
+    PinSage graph model based recommender
+    </a>
+</h3><p class="post-meta-description">Applying pinsage model on movielens-1m dataset</p><p class="post-meta">Jun 23, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/retrieval/redis/milvus/movie/2021/06/23/movielens-milvus-redis-efficient-retrieval.html">
+    Recommender with Redis and Milvus
+    </a>
+</h3><p class="post-meta-description">Storing the pre-calculated user and items vectors of movielens dataset into redis in-memory database and then indexing into milvus for efficient large-scale retrieval</p><p class="post-meta">Jun 23, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/movie/collaborative/2021/06/23/collaborative-filtering-movielens-latest-small-08.html">
+    CF Part 8 - Evaluation
+    </a>
+</h3><p class="post-meta-description">Collaborative Filtering on MovieLens Latest-small Part 8 - Evaluation of various methods</p><p class="post-meta">Jun 23, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/movie/collaborative/2021/06/23/collaborative-filtering-movielens-latest-small-07.html">
+    CF Part 7 - Explainable Matrix factorization method
+    </a>
+</h3><p class="post-meta-description">Collaborative Filtering on MovieLens Latest-small Part 7 - Finding recommendations using model based explainable matrix factorization method</p><p class="post-meta">Jun 23, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/movie/collaborative/2021/06/23/collaborative-filtering-movielens-latest-small-06.html">
+    CF Part 6 - Non-negative Matrix factorization method
+    </a>
+</h3><p class="post-meta-description">Collaborative Filtering on MovieLens Latest-small Part 6 - Finding recommendations using model based non-negative matrix factorization method</p><p class="post-meta">Jun 23, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/movie/collaborative/2021/06/23/collaborative-filtering-movielens-latest-small-05.html">
+    CF Part 5 - Matrix factorization method
+    </a>
+</h3><p class="post-meta-description">Collaborative Filtering on MovieLens Latest-small Part 5 - Finding recommendations using model based  matrix factorization method</p><p class="post-meta">Jun 23, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/movie/collaborative/2021/06/23/collaborative-filtering-movielens-latest-small-04.html">
+    CF Part 4 - SVD method
+    </a>
+</h3><p class="post-meta-description">Collaborative Filtering on MovieLens Latest-small Part 4 - Finding recommendations using model based singular value decomposition (SVD) method</p><p class="post-meta">Jun 23, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/movie/collaborative/2021/06/23/collaborative-filtering-movielens-latest-small-03.html">
+    CF Part 3 - Item-based method
+    </a>
+</h3><p class="post-meta-description">Collaborative Filtering on MovieLens Latest-small Part 3 - Finding recommendations using memory based item-item similarity method</p><p class="post-meta">Jun 23, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/movie/collaborative/2021/06/23/collaborative-filtering-movielens-latest-small-02.html">
+    CF Part 2 - User-based method
+    </a>
+</h3><p class="post-meta-description">Collaborative Filtering on MovieLens Latest-small Part 2 - Finding recommendations using memory based user-user similarity method</p><p class="post-meta">Jun 23, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/movie/collaborative/2021/06/23/collaborative-filtering-movielens-latest-small-01.html">
+    CF Part 1 - Data loading and EDA
+    </a>
+</h3><p class="post-meta-description">Collaborative Filtering on MovieLens Latest-small Part 1 - Downloading movielens latest small dataset and exploratory data analysis</p><p class="post-meta">Jun 23, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/fashion/tensorflow/tensorflow%20serving/workshop/vidoe%20tutorial/2021/06/22/building-deploying-asos-fashion-recommender-tensorflow.html">
+    Building and deploying ASOS fashion recommender
+    </a>
+</h3><p class="post-meta-description">Building a fashion recommender using tensorflow and deploying using tensorflow serving</p><p class="post-meta">Jun 22, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/amazonpersonalize/movie/security/privacy/2021/06/20/amazon-personalize-workshop-part-4.html">
+    Amazon Personalize Workshop Part 4 - Security best practices (optional)
+    </a>
+</h3><p class="post-meta-description">We are using a pre-made dataset that hasn't been encrypted so there is no need to decrypt this dataset. However, it would be a good security practice to store your datasets encrypted.</p><p class="post-meta">Jun 20, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/amazonpersonalize/movie/2021/06/20/amazon-personalize-workshop-part-3.html">
+    Amazon Personalize Workshop Part 3 - Cleanup the resources
+    </a>
+</h3><p class="post-meta-description">After building your model you may want to delete your campaign, solutions, and datasets.</p><p class="post-meta">Jun 20, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/amazonpersonalize/movie/realtime/2021/06/20/amazon-personalize-workshop-part-2.html">
+    Amazon Personalize Workshop Part 2 - View Campaign and Interactions
+    </a>
+</h3><p class="post-meta-description">In the first part, you successfully built and deployed a recommendation model using deep learning with Amazon Personalize. This notebook will expand on that and will walk you through adding the ability to react to real time behavior of users. If their intent changes while browsing a movie, you will see revised recommendations based on that behavior. It will also showcase demo code for simulating user behavior selecting movies before the recommendations are returned.</p><p class="post-meta">Jun 20, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/amazonpersonalize/movie/2021/06/20/amazon-personalize-workshop-part-1.html">
+    Amazon Personalize Workshop Part 1 - Build your campaign
+    </a>
+</h3><p class="post-meta-description">This notebook will walk you through the steps to build a recommendation model for movies based on data collected from the movielens data set. The goal is to recommend movies that are relevant based on a particular user. The data is coming from the MovieLens project.</p><p class="post-meta">Jun 20, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/amazonpersonalize/batch/movie/hrnn/2021/06/20/amazon-personalize-batch-job.html">
+    Amazon Personalize Batch Job
+    </a>
+</h3><p class="post-meta-description">Train and create batch recommendations using Amazon Personalize. Expected completion time is 1.5-2 hours</p><p class="post-meta">Jun 20, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/similarity/2021/06/19/simple-similarity-based-recommenders.html">
+    Simple Similarity based Recommmendations
+    </a>
+</h3><p class="post-meta-description">A beginner guide to understand the similarity based recommendations from the ground-up</p><p class="post-meta">Jun 19, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/features/recsys/cudf/retail/bigdata/2021/06/19/recsys20-tutorial-feature-engineering-part-2.html">
+    Recsys&#39;20 Feature Engineering Tutorial Part 2
+    </a>
+</h3><p class="post-meta-description">RecSys'20 tutorial on feature engineering on a large retail dataset part 2</p><p class="post-meta">Jun 19, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/features/recsys/cudf/retail/bigdata/2021/06/19/recsys20-tutorial-feature-engineering-part-1.html">
+    Recsys&#39;20 Feature Engineering Tutorial Part 1
+    </a>
+</h3><p class="post-meta-description">RecSys'20 tutorial on feature engineering on a large retail dataset</p><p class="post-meta">Jun 19, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/bandit/2021/06/19/methods-for-effective-online-testing.html">
+    Methods for effective online testing
+    </a>
+</h3><p class="post-meta-description">Testing out different bandit methods for effective online testing methods</p><p class="post-meta">Jun 19, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/dask/colab/bigdata/2021/06/19/how-to-install-dask-in-colab.html">
+    How to install dask in colab
+    </a>
+</h3><p class="post-meta-description">a basic introduction to dask and how to install dask in colab</p><p class="post-meta">Jun 19, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/bandit/2021/06/17/recostep-tutorial-offline-replayer-eval-recogym.html">
+    Offline Replayer Evaluation I - Recogym
+    </a>
+</h3><p class="post-meta-description">Running recogym for offline simulation and evaluation</p><p class="post-meta">Jun 17, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/bandit/2021/06/17/recostep-tutorial-offline-replayer-eval-recogym-small.html">
+    Offline Replayer Evaluation II - Recogym small
+    </a>
+</h3><p class="post-meta-description">Running recogym for offline simulation and evaluation with small number of users and items</p><p class="post-meta">Jun 17, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/bandit/movie/2021/06/17/recostep-tutorial-offline-replayer-eval-movielens-2.html">
+    Offline Replayer Evaluation IV - Movielens
+    </a>
+</h3><p class="post-meta-description">Evaluating bandits offline with replay method on movielens dataset</p><p class="post-meta">Jun 17, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/amazon/bandit/2021/06/17/recostep-tutorial-offline-replayer-eval-amazon-electronics.html">
+    Offline Replayer Evaluation III - Amazon electronics dataset
+    </a>
+</h3><p class="post-meta-description">Running bandit models on amazon electronics ratings dataset for offline evaluation</p><p class="post-meta">Jun 17, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/ecommerce/2021/06/15/recostep-ecommerce-recommender-olist.html">
+    Recommendation systems using Olist dataset
+    </a>
+</h3><p class="post-meta-description">Olist e-commerce dataset to build simple recommender systems</p><p class="post-meta">Jun 15, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/contextual%20bandit/2021/06/12/vowpalwabbit-changing-context.html">
+    Contextual bandit with changing context
+    </a>
+</h3><p class="post-meta-description">Customizing the context and changing it midway to see how fast the agent can adapt to the new context and start recommending better products as per the context</p><p class="post-meta">Jun 12, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/contextual%20bandit/2021/06/12/vowpalwabbit-changing-context-part2.html">
+    Contextual bandit with changing context part 2
+    </a>
+</h3><p class="post-meta-description">Customizing the context and changing it midway to see how fast the agent can adapt to the new context and start recommending better products as per the context</p><p class="post-meta">Jun 12, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/dash%20app/contextual%20bandit/2021/06/12/contextual-bandit-dash-app.html">
+    Contextual bandit dash app
+    </a>
+</h3><p class="post-meta-description">Building a dash app of contextual bandit based recommender system</p><p class="post-meta">Jun 12, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/movie/tensorflow/2021/06/12/build-a-simple-movie-recommender-with-tensorflow.html">
+    A simple recommender with tensorflow
+    </a>
+</h3><p class="post-meta-description">A tutorial on how to build a simple deep learning based movie recommender using tensorflow library.</p><p class="post-meta">Jun 12, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/travel/eda/2021/06/12/booking-dot-com-trip-recommendations-02-EDA.html">
+    Booking.com trip recommendation part 2 - EDA
+    </a>
+</h3><p class="post-meta-description">Booking.com challenge on trip recommendation part 2</p><p class="post-meta">Jun 12, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/travel/2021/06/12/booking-dot-com-trip-recommendations-01-baseline.html">
+    Booking.com trip recommendation part 1 - baseline model
+    </a>
+</h3><p class="post-meta-description">Booking.com challenge on trip recommendation part 1</p><p class="post-meta">Jun 12, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/reinforcement%20learning/bandit/2021/06/12/bandit-based-recommender-using-thompson-sampling.html">
+    Bandit-based online learning using Thompson sampling POC
+    </a>
+</h3><p class="post-meta-description">A proof-of-concept on using Thompson sampling for training a recommender model in real-time environment</p><p class="post-meta">Jun 12, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/reinforcement%20learning/bandit/dash%20app/2021/06/12/bandit-based-recommender-using-thompson-sampling-app.html">
+    Bandit-based online learning using Thompson sampling App
+    </a>
+</h3><p class="post-meta-description">Plotly dash app for thompson sampling simulation for product recommendations</p><p class="post-meta">Jun 12, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/session/retail/2021/06/11/recostep-session-based-recommender-using-word2vec.html">
+    Session-based recommendation using word2vec
+    </a>
+</h3><p class="post-meta-description">How to build a session-based product recommender using word2vec model on retail dataset</p><p class="post-meta">Jun 11, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/movie/pytorch/2021/06/11/recostep-movielens-neural-mf.html">
+    Neural Matrix Factorization on Movielens
+    </a>
+</h3><p class="post-meta-description">Experiments with different variations of Neural matrix factorization model in PyTorch on movielens dataset</p><p class="post-meta">Jun 11, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/mongodb/real%20time/2021/06/11/recostep-mongodb-listener.html">
+    Kafka MongoDB Real-time Streaming MongoDB Listener
+    </a>
+</h3><p class="post-meta-description">Listening mongoDB data events in real-time.</p><p class="post-meta">Jun 11, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/kafka/real%20time/2021/06/11/recostep-kafka-producer.html">
+    Kafka MongoDB Real-time Streaming Kafka Producer
+    </a>
+</h3><p class="post-meta-description">Sending events to Kafka broker in real-time</p><p class="post-meta">Jun 11, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/mongodb/kafka/real%20time/2021/06/11/recostep-kafka-consumer-mongodb.html">
+    Kafka MongoDB Real-time Streaming Kafka Consumer and MongoDB
+    </a>
+</h3><p class="post-meta-description">Listening from kafka topic in real-time and storing in mongodb</p><p class="post-meta">Jun 11, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/diversity/book/2021/06/10/recobook-goodreads-book-recommender.html">
+    Diversity Aware Book Recommender
+    </a>
+</h3><p class="post-meta-description">A tutorial on building an amazon-like book recommender and keeping diversity as an important factor</p><p class="post-meta">Jun 10, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/diversity/book/2021/06/10/recobook-dive-aware-book-recommender.html">
+    Diversity Aware Book Recommender
+    </a>
+</h3><p class="post-meta-description">A tutorial on building an amazon-like book recommender and keeping diversity as an important factor</p><p class="post-meta">Jun 10, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/similarity/visual/2021/04/27/image-similarity-recommendations.html">
+    Similar Product Recommendations
+    </a>
+</h3><p class="post-meta-description">A tutorial on building a recommender system that will find similar looking products</p><p class="post-meta">Apr 27, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/sequence/music/2021/04/26/Sequence-Aware-Recommenders-Music.html">
+    Sequence Aware Recommender Systems
+    </a>
+</h3><p class="post-meta-description">A tutorial on Sequence-Aware Recommender Systems</p><p class="post-meta">Apr 26, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/retail/2021/04/25/Recommender-Implicit-Negative-Feedback.html">
+    Retail Product Recommendation with Negative Implicit Feedback
+    </a>
+</h3><p class="post-meta-description">A tutorial to demonstrate the process of training and evaluating various recommender models on a online retail store data. Along with the positive feedbacks like view, add-to-cart, we also have a negative event 'remove-from-cart'.</p><p class="post-meta">Apr 25, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/sequence/retail/2021/04/24/rec-medium-word2vec.html">
+    Retail Product Recommendations using word2vec
+    </a>
+</h3><p class="post-meta-description">Creating a system that automatically recommends a certain number of products to the consumers on an E-commerce website based on the past purchase behavior of the consumers.</p><p class="post-meta">Apr 24, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/graph/embedding/2021/04/24/Recommendation-Node2vec.html">
+    Recommender System with Node2vec Graph Embeddings
+    </a>
+</h3><p class="post-meta-description">A tutorial on building a movie recommender system that will learn user-item representation using graph embedding and comparing performance with other methods like matrix factorization</p><p class="post-meta">Apr 24, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/similarity/visual/retail/2021/04/23/similar-product-recommender.html">
+    Similar Product Recommender system using Deep Learning for an online e-commerce store
+    </a>
+</h3><p class="post-meta-description">A tutorial on building a recommender that will allow users to select a specific type of shirt and search for similar pattern of shirts from the inventory</p><p class="post-meta">Apr 23, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/reinforcement/contextual/2021/04/22/vowpal-wabbit-contextual-recommender.html">
+    Simulating a news personalization scenario using Contextual Bandits
+    </a>
+</h3><p class="post-meta-description">A tutorial to understand the process of building a contextual recommender system using vowpalwabbit</p><p class="post-meta">Apr 22, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/jupyter/pytorch/2021/04/21/rec-algo-ncf-pytorch-pyy0715.html">
+    Neural Matrix Factorization from scratch in PyTorch
+    </a>
+</h3><p class="post-meta-description">A tutorial to understand the process of building a **Neural Matrix Factorization** model from scratch in PyTorch on MovieLens-1M dataset.</p><p class="post-meta">Apr 21, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/elasticsearch/jupyter/2021/04/20/dl-retrieval.html">
+    Large-scale Document Retrieval with ElasticSearch
+    </a>
+</h3><p class="post-meta-description">A tutorial to understand the process of retrieving documents/items using elastic search and vector indexing methods.</p><p class="post-meta">Apr 20, 2021</p>
+</li><li><h3>
+    <a class="post-link" href="/scenetext/ocr/computervision/2020/06/26/scene-text-recognition.html">
+    Scene Text Recognition
+    </a>
+</h3><p class="post-meta-description">Detecting and comprehending text in images using EAST and Tesseract models</p><p class="post-meta">Jun 26, 2020</p>
+</li><li><h3>
+    <a class="post-link" href="/scraping/bert/2020/06/20/simple-scraping-nlp-bs4-distilbert.html">
+    Job scraping and clustering
+    </a>
+</h3><p class="post-meta-description">Simple web scraping with BeautifulSoup4 and NLP with DistilBERT</p><p class="post-meta">Jun 20, 2020</p>
+</li><li><h3>
+    <a class="post-link" href="/nlp/2020/06/20/pdf-to-wordcloud-mail.html">
+    PDF to WordCloud via Email
+    </a>
+</h3><p class="post-meta-description">Receive a pdf via outlook mail and send back the wordcloud of that pdf in the reply</p><p class="post-meta">Jun 20, 2020</p>
+</li><li><h3>
+    <a class="post-link" href="/etl/mongodb/2020/06/20/mongodb-to-csv-conversion.html">
+    MongoDB to CSV conversion
+    </a>
+</h3><p class="post-meta-description">Pull a noSQL data from MongoDB and convert into Pandas dataframe</p><p class="post-meta">Jun 20, 2020</p>
+</li><li><h3>
+    <a class="post-link" href="/tensorflow/vision/2020/06/20/image-analytics-tensorflow.html">
+    Image Analysis with Tensorflow
+    </a>
+</h3><p class="post-meta-description">Applying image analytics and computer vision methods using Tensorflow</p><p class="post-meta">Jun 20, 2020</p>
+</li><li><h3>
+    <a class="post-link" href="/computervision/imagesegmentation/2020/06/20/agriculture-image-segmentation.html">
+    Agricultural Satellite Image Segmentation
+    </a>
+</h3><p class="post-meta-description">Classifying each pixel of an agricultural satellite image</p><p class="post-meta">Jun 20, 2020</p>
 </li></ul>
 
-    
-      <div class="pager">
-        <ul class="pagination">
-          <li><div class="pager-edge">•</div></li>
-          <li><div class="current-page">1</div></li>
-          <li><a href="/page2/" class="next-page">2</a></li>
-        </ul>
-      </div></div>
+    </div>
       </div>
     </main><footer class="site-footer h-card">
   <data class="u-url" href="/"></data>
@@ -194,7 +958,7 @@ window.onload = wrap_img;
         </p>
       </div>
       <div class="footer-col">
-        <p>RecoHut&#39;s official notebooks portal, contains interactive jupyter notebooks on recommender systems.</p>
+        <p>Jupyter notebook database.</p>
       </div>
     </div>
 
